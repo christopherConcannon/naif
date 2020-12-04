@@ -8,8 +8,6 @@ const router = express.Router()
 
 dotenv.config()
 
-console.log('A_K_ID: ', process.env.ACCESS_KEY_ID)
-
 const s3 = new AWS.S3({
   accessKeyId: process.env.ACCESS_KEY_ID,
   secretAccessKey: process.env.SECRET_ACCESS_KEY
@@ -18,7 +16,7 @@ const s3 = new AWS.S3({
 const uploadS3 = multer({
   storage: multerS3({
     s3: s3,
-    // acl: 'public-read',
+    acl: 'public-read',
     bucket: 'naif',
     metadata: (req, file, cb) => {
       cb(null, {fieldName: file.fieldname})
@@ -32,8 +30,8 @@ const uploadS3 = multer({
 
 router.post('/', uploadS3.single('image'),(req, res) => {
   console.log(req.file);
-  console.log(req.file.location);
-  res.send(`/${req.file.location}`)
+  // console.log(req.file.location);
+  res.send(`${req.file.location}`)
 });
 
 
