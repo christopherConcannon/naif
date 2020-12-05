@@ -67,7 +67,7 @@ const products = [
     brand: 'fujiwara',
     category: 'knives',
     price: 399.99,
-    countInStock: 0,
+    countInStock: 3,
     rating: 4,
     numReviews: 12,
   },

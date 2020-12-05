@@ -1,5 +1,4 @@
-
-# Pro Shop
+# Naif
 
 ![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
@@ -13,7 +12,7 @@ A modern end-to-end, pedagogical e-commerce application built with the MERN Stac
 ##### Payment Checkout View
 ![View Screenshot](./assets/images/screenshot3.png)
 
-Visit site [here](https://proshop-xo.herokuapp.com/)
+<!-- Visit site [here](https://proshop-xo.herokuapp.com/) -->
 
 ## Table of Contents
   * [Installation](#installation)
@@ -34,7 +33,7 @@ Run <$ npm run dev> to launch application and launch on localhost development se
 This project is covered under the MIT license 
 
 ## Technologies 
-MERN Stack, Redux, React Router, React Bootstrap, Bootswatch, PayPal API, Multer 
+MERN Stack, Redux, React Router, React Bootstrap, Bootswatch, PayPal API, Multer, AWS S3
 
 
 ## Contributing
