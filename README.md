@@ -3,7 +3,7 @@
 ![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-A modern end-to-end, pedagogical e-commerce application built with the MERN Stack and Redux.  Features CMS-style admin database control and PayPal payment integration. 
+A modern end-to-end, e-commerce application to sell Culinary knifeware, built with the MERN Stack and Redux.  Features CMS-style admin database control and PayPal payment integration. 
 
 ##### Homescreen
 ![Homescreen Screenshot](./assets/images/screenshot.png)
@@ -28,7 +28,7 @@ A modern end-to-end, pedagogical e-commerce application built with the MERN Stac
   * [Questions](#questions)
   
 ## Installation
-Clone project to a directory on your local machine and cd into proshop directory.  Run <$ npm install> to install dependencies.  See package.json for other available scripts.
+Clone project to a directory on your local machine and cd into naif directory.  Run <$ npm install> to install dependencies.  See package.json for other available scripts.
 
 ## Usage
 Run <$ npm run dev> to launch application and launch on localhost development server.  Create user on sign up page or log in to john@example.com with password '123456' as a guest.  Select products to view and add to cart.  Complete mock payment with PayPal integration. 
