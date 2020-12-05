@@ -9,8 +9,12 @@ A modern end-to-end, pedagogical e-commerce application built with the MERN Stac
 ![Homescreen Screenshot](./assets/images/screenshot.png)
 ##### Single Product View
 ![Single Product View Screenshot](./assets/images/screenshot2.png)
+##### Order Summary View
+![Order Summary View Screenshot](./assets/images/screenshot3.png)
 ##### Payment Checkout View
-![View Screenshot](./assets/images/screenshot3.png)
+![View Screenshot](./assets/images/screenshot4.png)
+##### Admin Product List View
+![Admin Product List View Screenshot](./assets/images/screenshot5.png)
 
 <!-- Visit site [here](https://proshop-xo.herokuapp.com/) -->
 
