@@ -1,8 +1,8 @@
 {
-  "name": "proshop",
+  "name": "naif",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "type": "module",
   "scripts": {
     "start": "node server/server",

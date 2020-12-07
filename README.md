@@ -16,7 +16,7 @@ A modern end-to-end, e-commerce application to sell Culinary knifeware, built wi
 ##### Admin Product List View
 ![Admin Product List View Screenshot](./assets/images/screenshot5.png)
 
-<!-- Visit site [here](https://proshop-xo.herokuapp.com/) -->
+Visit site [here](https://naif-xo.herokuapp.com/)
 
 ## Table of Contents
   * [Installation](#installation)
